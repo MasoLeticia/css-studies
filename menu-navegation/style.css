@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em 2em;
+}
+
+.menu{
+    display: flex;
+    gap: 0.8rem;
+    border-top: 15px solid rgba(48, 114, 103, 0.76);
+    padding: 0 3em;
+    box-shadow: 5px 5px rgba(48, 114, 103, 0.24);
+    align-items: center;
+    height: 6em;
+
+}
+
+.menu a {
+    flex-grow: 2;
+}
+
+.btn{
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgba(18, 129, 111, 0.582);
+    color: #fff; 
+    box-shadow: 0 5px 0 rgba(11, 95, 81, 0.582);
+}
+    
+.btn:hover{
+    background-color: rgba(11, 95, 81, 0.582);
+    box-shadow: 0 5px 0 rgba(9, 73, 62, 0.582);
+}
+
+.btn:active{
+    box-shadow: nome;
+    position: relative;
+    top: 3px
+}
+
+p{
+    margin-bottom: 1px;
+}

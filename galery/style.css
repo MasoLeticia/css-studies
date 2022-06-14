@@ -1,0 +1,31 @@
+body{
+    background: black;
+}
+
+h1{
+    padding-top: 1em;
+    font-size: 50px; 
+}
+
+h1, h2, footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align:center;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    gap: 0.8rem;
+    height: 80%vh;
+    justify-content: center;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+img {
+    border: 1px solid #fff;; 
+    width: 10em;
+    height: auto;
+    flex-basis: 25%;
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2em;
+}
+
+.columns{
+    display: flex;
+    height:100vh;
+    gap: 1rem;
+}
+
+.one{
+    border:1px solid black;
+    background-color: rgba(142, 100, 158, 0.411);
+    flex-grow: 0.25;
+}
+
+.two{
+    border:1px solid black;
+    background-color: rgba(100, 158, 134, 0.411);
+    flex-grow: 0.75;
+}
